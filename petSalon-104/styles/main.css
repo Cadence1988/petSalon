@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+      /*Utilities*/
+.header-container{
+   width: 100%;
+   margin: 0;
+   text-align: center;
+   background-color: #228989;  
+}
+
+.container {
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+      /*Text Styles*/
+.main-text{
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.secondary-text {
+    font-weight: 700;
+    font-size: 24px;
+}
+ .normal-text {
+    font-size: 20px;
+    line-height: 1.5px;
+ }
+
+ .btn {
+    display: block;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+ }
+
+ nav a {
+    color: black;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 10px 30px;
+ }
+/*register color*/
+ .site-header {
+    background-color: #228989;
+ }
+
+ .body-color{
+   background-color: #33bebe;
+   background-repeat: repeat;
+   background-size: 50px 50px;
+   background-position: center top;
+ }
+
+ .table{
+    background-color: red;
+ }
+
+    /*GETTING VALUES FROM PROMPT   */
+
+    /*NOTIFICATIONS */
+    #notifications {
+      width: 30%;
+      border-radius: 5px;
+      padding: 3px;
+      margin-bottom: 10px;
+      height: 30px;
+      font-size: 14px;
+      margin: 10px auto;
+      text-align: center;
+    }
+    .hide {
+      display: none;
+    }
+    .success {
+      background-color: green;
+      color: darkgreen;
+    }
+    .error {
+      background-color: pink;
+      border: 1px solid gray;
+    }
